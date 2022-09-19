@@ -1,5 +1,5 @@
 # TodoList
-JavaScript로 구현한 TodoList 
+(공부) JavaScript로 구현한 TodoList 
 
 ## 사용한 기술셋 
 - JavaScript, CSS
