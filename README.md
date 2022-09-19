@@ -21,6 +21,6 @@ JavaScript로 구현한 TodoList
 <br>
 
 
-- README 쓰다가 이상한점 발견 (수정완료)
+- README 쓰다가 이상한점 발견 (수정완료) <
   ![에러부분](https://user-images.githubusercontent.com/77670592/190969976-ccdfcd8b-230c-4af4-bdaf-190a0a19bdb7.gif)
   -> 수정안함 클릭시 리스트 순서가 바뀌는 문제! 
