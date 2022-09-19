@@ -16,5 +16,11 @@ JavaScript로 구현한 TodoList
 - todo 리스트 완료목록 이동 <br>
   ![완료목록이동](https://user-images.githubusercontent.com/77670592/190969703-4bbd1192-3dac-48f4-9bc2-826ec974b637.gif)
 
+<br>
+<br>
+<br>
 
 
+- README 쓰다가 이상한점 발견 (수정완료)
+  ![에러부분](https://user-images.githubusercontent.com/77670592/190969976-ccdfcd8b-230c-4af4-bdaf-190a0a19bdb7.gif)
+  -> 수정안함 클릭시 리스트 순서가 바뀌는 문제! 
