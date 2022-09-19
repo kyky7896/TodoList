@@ -1,2 +1,2 @@
 # TodoList
-JavaScipt로 구현한 TodoList 
+JavaScript로 구현한 TodoList 
