@@ -26,16 +26,17 @@ window.onload=function () {
   let add = document.getElementById('add');
   let todoList = document.getElementById('todoList');
 
-
+  let todoValue=document.getElementById('inputbox')
   add.addEventListener('click', function () {
     cnt++;
-    let todo = f1.inputbox.value;
+    todo=todoValue.value
+    console.log(todo)
     if (!todo) { //input창에 아무것도 없을때
       alert("다시 입력해주세요")
       return;
     }
-    //input에 있을때
 
+    //input에 있을때
     //객체 생성
     let obj="{cnt:'"+cnt+"',input:'"+todo+"'}";
     //li요소 생성
@@ -145,11 +146,12 @@ window.onload=function () {
     //div의 html요소에 html넣기
     todo_li.innerHTML = html;
 
-    //현재 list가 있는위치
+    //현재 list가 있는 부모 위치
     let list = todo_li.parentNode;
-    //list의 자식에 div 추가하기
-    list.appendChild(todo_li);
-
+    //부모의 자식에 div 추가하기
+    // list.appendChild(todo_li);
+    
+    list.replaceChild(todo_li)
 
   }
 
